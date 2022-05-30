@@ -1,0 +1,20 @@
+$color_green : #56C4C5;
+$dark_text : #221E1F;
+$light_text : #747474;
+$border_radius : 50px;
+
+@mixin wrap() {
+    width: 1085px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+@mixin wrap_s() {
+    width: 900px;
+    margin: 0 auto;
+    max-width: 90%;
+}
+@mixin flex() {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
